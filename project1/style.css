@@ -1,0 +1,81 @@
+img {
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .box {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgba(137, 35, 108, 0.6);
+    min-width: 300px;
+    min-height: 180px;
+  }
+  
+ .grid-1 h1 {
+     font-size: 100px; 
+     text-align: right;
+     font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .grid-1 h2 {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: left;
+  }
+
+  .grid-1 ul {
+    color:rgb(137, 35, 108)
+  }
+
+  .grid-1 ul li {
+    font-size:25px;
+  }
+
+  .grid-2 {
+    display: flex;
+  }
+
+  .grid-2 h2 {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    
+  }
+
+  .grid-2 ul {
+    color:rgb(137, 35, 108)
+  }
+
+ .grid-2 ul li {
+    font-size:25px;
+  }
+  
+  .grid-2 article {
+    flex: 1;
+  }
+  .flowertime {
+    margin-top: -100px;
+  }
+  .flowertime .left {
+    position: relative;
+  }
+  .flowertime .left .thumb {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 200px;
+  }
+  
+  .flowertime .right h3 {
+    background-color: rgba(137, 35, 108, 0.6);
+    border-radius: 20px;
+    text-align: right;
+    color: rgb(255, 255, 255)
+  }
+ 
+    
+
+ 
