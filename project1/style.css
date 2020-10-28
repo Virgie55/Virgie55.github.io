@@ -2,55 +2,17 @@ img {
     border-radius: 20px;
     width: 100%;
   }
-
+  
   .box {
     display: inline-block;
     border-radius: 20px;
-    background-color: rgba(137, 35, 108, 0.6);
+    background-color: rgba(208, 45, 241, 0.6);
     min-width: 300px;
     min-height: 180px;
   }
   
- .grid-1 h1 {
-     font-size: 100px; 
-     text-align: right;
-     font-family: buckboard-pro, serif;
-    font-style: normal;
-    font-weight: 400;
-  }
-  .grid-1 h2 {
-    font-family: buckboard-pro, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    text-align: left;
-  }
-
-  .grid-1 ul {
-    color:rgb(137, 35, 108)
-  }
-
-  .grid-1 ul li {
-    font-size:25px;
-  }
-
   .grid-2 {
     display: flex;
-  }
-
-  .grid-2 h2 {
-    font-family: buckboard-pro, serif;
-    font-style: normal;
-    font-weight: 400;
-    
-  }
-
-  .grid-2 ul {
-    color:rgb(137, 35, 108)
-  }
-
- .grid-2 ul li {
-    font-size:25px;
   }
   
   .grid-2 article {
@@ -70,12 +32,214 @@ img {
   }
   
   .flowertime .right h3 {
-    background-color: rgba(137, 35, 108, 0.6);
+    background-color: rgba(208, 45, 241, 0.6);
     border-radius: 20px;
     text-align: right;
-    color: rgb(255, 255, 255)
   }
- 
+
+
+
+
+.hp-title {
+    
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 160px;
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    position: absolute;
+    right: 140px;
+    width: 200px;
+    height: 120px;    
+    top:17px;
+    left:1250px;
+
+    
+}
+
+
+.hpindica h1 {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400
+   
+}
+
+.hpsativa h1{
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.hphybrid h1{
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400; 
+}
+
+.hpcbd h1{
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container-1 {
+width: 500px;
+  height: 500px;
+  position: relative;
+  top:2%;
+}
+
+.container-1 img{
+    width:550px;
+    height:550px;
+
+    top:2%;
+    
+}
+.indica-title{
+    color:white;
+    font-size:50px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.container-2 {
+    width:500px;
+    height:500px;
+    padding-left:-44.5%;
+    position: relative;
+    top:2%;
+
+}
+.container-2 img{
+    width:550px;
+    height:550px;
+    padding-left:-44.5%;
+    position:absolute;
+    top:-2%;
+}
+.sativa-title {
+    color:white;
+    font-size:50px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.container-3 {
+width:500px;
+height:500px;
+position: relative;
+bottom:-15%;
+
+}
+
+.container-3 img {
+    width:550px;
+    height:550px;
+    position: absolute;
+    bottom:-8%;
     
 
- 
+}
+
+.hybrid-title {
+    color:white;
+    font-size:50px;
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.container-4 {
+    width:500px;
+    height:500px;
+    position: absolute;
+    bottom:-7%;
+    margin-left: 1%;
+}
+.container-4 img {
+    width:550px;
+    height:550px;
+    position: absolute;
+   margin-left:1%;
+    bottom:-7%;
+
+}
+
+.cbd-title {
+    color:white;
+    font-size:50px;
+    position: relative;
+    top:45%;
+    left:70%;
+    transform: translate(-50%,-50%);
+}
+
+.hpsativa  {
+    display:flex;
+    position:absolute;
+    top:20px;
+    left:700px;
+    
+}
+
+.hpcbd {
+    display:flex;
+    position:absolute;
+    top:1100px;
+    left:700px;
+    
+}
+.hphybrid {
+    display:flex;
+    position:absolute;
+    top:595px;
+    left:100px;
+}
+.hpindica {
+    display:flex;
+    position:absolute;
+    top:10px;
+    left:100px;
+}
+
+
+
+
+
+
+.id-title {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400
+}
+
+.id-title h1{
+    font-size: 160px;
+    position: absolute;
+    top:40px;
+    left:100px;
+}
+
+.id-container{
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgba(137, 35, 108, 0.6);
+    min-width: 300px;
+    min-height: 180px;
+    position: absolute;
+    top:200px;
+    
+}
+
+.id-container .id-title h1 {
+    display:flex;
+}
