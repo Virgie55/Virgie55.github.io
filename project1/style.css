@@ -1,3 +1,8 @@
+body{
+    margin:0;
+    padding:0;
+}
+
 img {
     border-radius: 20px;
     width: 100%;
@@ -11,6 +16,22 @@ img {
     min-height: 180px;
   }
   
+  .grid-1 {
+    display:flex;
+    
+}
+
+ .grid-1 .sativa-title {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 160px;
+    color:black;
+    justify-content:flex-end;
+    align-content: flex-start;
+
+ }
+
   .grid-2 {
     display: flex;
   }
@@ -243,3 +264,5 @@ bottom:-15%;
 .id-container .id-title h1 {
     display:flex;
 }
+
+
