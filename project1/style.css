@@ -3,6 +3,10 @@ body{
     padding:0;
 }
 
+body { margin: 0;}
+* {box-sizing: border-box;
+}
+
 img {
     border-radius: 20px;
     width: 100%;
@@ -18,6 +22,8 @@ img {
   
   .grid-1 {
     display:flex;
+    margin:0;
+    padding:0;
     
 }
 
@@ -29,9 +35,30 @@ img {
     color:black;
     justify-content:flex-end;
     align-content: flex-start;
+    position: absolute;
+    right: -600px;
+    top: 150px;
 
  }
 
+.grid-12{
+    position: relative;
+    top:300px;
+
+}
+
+.grid-12, h1 {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.grid-12, p {
+    font-family: vag-rundschrift-d, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
   .grid-2 {
     display: flex;
   }
@@ -266,3 +293,113 @@ bottom:-15%;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.indica-pg-title {
+    margin:0;
+
+}
+
+
+.indica-pg-title, header, h1 {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 160px;
+    position: absolute;
+    top:0px;
+    left:10px;
+    right: 140px;
+}
+
+.indica-pg-title, .in-box-1 {
+    border-radius: 20px;
+    background-color: rgba(208, 45, 241, 0.6);
+    min-width: 300px;
+    min-height: 180px;
+    top:20px;
+    left:20px;
+
+}
+
+.id-grid-1{
+    width:500px;
+
+}
+
+.id-grid-1 .id-effects h2 {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    position: absolute;
+    left: 900px;   
+    top:400px;
+    margin-left: 0;
+    
+}
+
+
+
+.id-grid-1 .id-eff-lists {
+    font-family: vag-rundschrift-d, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    
+}
+
+.id-grid-1 .id-eff-lists .id-p {
+    font-family: vag-rundschrift-d, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    left: 40px;   
+    top:350px;
+
+}
+
+
+.id-p  p {
+    position: absolute;
+    left: 910px;   
+    top:160px;
+    color: rgb(137, 35, 108);
+    width:400px;
+    font-size:25px;
+
+}
+
+.id-grid-1 ul {
+    font-family: vag-rundschrift-d, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 25px;
+    position: absolute;
+    left: 1070px;   
+    top:750px;
+    color: rgb(137, 35, 108);
+
+
+}
+
+.id-grid-2{
+    position:absolute;
+    width:1200px;
+    height:900px;
+    top:400px;
+    left:-300px;
+}
