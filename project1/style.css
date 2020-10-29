@@ -363,7 +363,7 @@ bottom:-15%;
 
 .id-grid-1 .id-eff-lists .id-p {
     font-family: vag-rundschrift-d, sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     font-size: 20px;
     position: absolute;
@@ -374,10 +374,13 @@ bottom:-15%;
 
 
 .id-p  p {
+    font-family: vag-rundschrift-d, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     position: absolute;
     left: 910px;   
     top:160px;
-    color: rgb(137, 35, 108);
+    color: black;
     width:400px;
     font-size:25px;
 
@@ -390,7 +393,7 @@ bottom:-15%;
     font-size: 25px;
     position: absolute;
     left: 1070px;   
-    top:750px;
+    top:700px;
     color: rgb(137, 35, 108);
 
 
@@ -398,8 +401,83 @@ bottom:-15%;
 
 .id-grid-2{
     position:absolute;
-    width:1200px;
-    height:900px;
+    width:1000px;
+    height:700px;
     top:400px;
-    left:-300px;
+    left:-120px;
 }
+
+.id-orgins {
+    position:absolute;
+    width:1000px;
+    height:700px;
+    top:800px;
+    left:20px;
+    
+}
+
+.id-orgins h1 {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    position:absolute;
+    top:170px;
+    left:220px;
+    
+}
+
+.id-orgins .id-box-2 {
+    width:400px;
+    height:240px;
+    border: 5px solid purple;
+    left:200px;
+    
+    
+
+}
+.id-box-2 {
+position:absolute;
+top:200px;
+border-radius: 20px;
+
+}
+
+.id-orgins .id-orgins-content-1st {
+    font-family: vag-rundschrift-d, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    position:absolute;
+    top:270px;
+    left:210px;
+    font-size:25px;
+}
+
+.id-orgins .id-orgins-content-2nd {
+    font-family: vag-rundschrift-d, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    position:absolute;
+    top:270px;
+    left:410px;
+    font-size:25px;
+}
+
+
+.id-hti-title, h2 {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    position:absolute;
+    top:650px;
+    left:500px;
+    font-size:40px;
+}
+
+.id-hti-title .id-2nd-list ul {
+    position:absolute;
+    top:800px;
+    left:500px;
+}
+
