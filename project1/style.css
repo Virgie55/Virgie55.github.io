@@ -475,9 +475,13 @@ border-radius: 20px;
     font-size:40px;
 }
 
-.id-hti-title .id-2nd-list ul {
+.id-2nd-list ul {
+    font-family: vag-rundschrift-d, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     position:absolute;
-    top:800px;
-    left:500px;
+    top:1450px;
+    left:1050px;
+    font-size:25px;
 }
 
