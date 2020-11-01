@@ -178,7 +178,7 @@ img {
 .sat-flowering-box-2 {
     width:500px;
     height:250px;
-   background-color: rgba(137, 35, 108, 0.6);
+   background-color: rgba(137, 35, 108, 0.3);
     position:absolute;
     top:1650px;
     left:900px;
@@ -203,9 +203,18 @@ img {
     font-size:30px;
     position:absolute;
     top:1750px;
-    left:1000px;
+    left:1050px;
     color:white;
 }
+
+
+.sat-nav {
+    position:absolute;
+    top:2100px;
+}
+
+
+
 
 
 
