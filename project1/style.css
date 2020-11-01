@@ -12,79 +12,206 @@ img {
     width: 100%;
   }
   
-  .box {
-    display: inline-block;
-    border-radius: 20px;
-    background-color: rgba(208, 45, 241, 0.6);
-    min-width: 300px;
-    min-height: 180px;
-  }
-  
-  .grid-1 {
-    display:flex;
-    margin:0;
-    padding:0;
-    
-}
-
- .grid-1 .sativa-title {
+.satpg-title {
     font-family: buckboard-pro, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 160px;
-    color:black;
-    justify-content:flex-end;
-    align-content: flex-start;
-    position: absolute;
-    right: -600px;
-    top: 150px;
-
- }
-
- .sat-eff-title{
-    position: absolute;
-    top:300px;
-
+    position: absolute;  
+    top:50px;
+    left:500px;
 }
 
-.sat-eff-title h2 {
+.satpg-box-1 {
+    border-radius:80px;
+    background-color: rgba(137, 35, 108, 0.6);
+    width:500px;
+    height:200px;
+    position:absolute;
+    left:950px;
+    top:20px;
+}
+
+
+.satpg-effects h2 {
     font-family: buckboard-pro, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 60px;
     position:absolute;
+    left:100px;
+    top:350px;
 }
 
-.sat-eff-title, p {
-    font-family: vag-rundschrift-d, sans-serif;
-    font-weight: 400;
+
+.satpg-content-1 p {
+    font-family: vag-rundschrift-d,sans-serif;
+    font-weight: 300;
     font-style: normal;
+    font-size:25px;
+    width:340px;
+    position:absolute;
+    top:470px;
+    left:150px;
 }
-  .grid-2 {
-    display: flex;
-  }
-  
-  .grid-2 article {
-    flex: 1;
-  }
-  .flowertime {
-    margin-top: -100px;
-  }
-  .flowertime .left {
-    position: relative;
-  }
-  .flowertime .left .thumb {
+
+
+.satpg-img-2 {
+    width:600px;
+    height:700px;
+    position:absolute;
+    top:300px;
+    left:700px;
+}
+
+.satpg-box-2 {
+    width:400px;
+    height:500px;
+    border: 5px solid purple;
     position: absolute;
-    right: 0px;
-    top: 0;
-    width: 200px;
-  }
-  
-  .flowertime .right h3 {
-    background-color: rgba(208, 45, 241, 0.6);
-    border-radius: 20px;
-    text-align: right;
-  }
+    left:770px;
+    top:400px;
+    border-radius:30px;
+}
+
+
+.sat-eff-list {
+    font-family: vag-rundschrift-d,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size:25px;
+    width:340px;
+    position:absolute;
+    top:700px;
+    left:300px;
+    color:purple;
+}
+
+.satpg-img-3 {
+    width:550px;
+    height:600px;
+    position:absolute;
+    top:1150px;
+    left:50px;
+}
+
+.satpg-box-3 {
+    width:700px;
+    height:200px;
+    border-radius: 25px;
+    border: 5px;
+    position: absolute;
+    top:1550px;
+    left:20px;
+    background-color: #89236C;
+    opacity:0.3;
+}
+
+
+.sat-hti-title {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    position:absolute;
+    left:900px;
+    top:1250px;
+}
+
+
+.sat-hti-list {
+    font-family: vag-rundschrift-d,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size:25px;
+    width:340px;
+    position:absolute;
+    top:1450px;
+    left:1000px;
+}
+
+
+.sat-flowering-box {
+    width:400px;
+    height:200px;
+    border: 5px solid purple;
+    position:absolute;
+    top:1800px;
+    left:150px;
+    border-radius: 25px; 
+}
+
+.sat-orgins h4 {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    position:absolute;
+    top:1770px;
+    left:180px;
+    color:black;
+}
+
+
+.sat-orgins-content-1 {
+    font-family: vag-rundschrift-d,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:25px;
+    position:absolute;
+    top:1850px;
+    left:180px;
+}
+
+
+
+.sat-orgins-content-2 {
+    font-family: vag-rundschrift-d,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:25px;
+    position:absolute;
+    top:1850px;
+    left:350px;
+}
+
+.sat-flowering-box-2 {
+    width:500px;
+    height:250px;
+   background-color: rgba(137, 35, 108, 0.6);
+    position:absolute;
+    top:1650px;
+    left:900px;
+    border-radius: 80px; 
+}
+
+.sat-flowering-content-title{
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    position:absolute;
+    top:1650px;
+    left:940px;
+    color:white;
+}
+
+.sat-weeks{
+    font-family: vag-rundschrift-d,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:30px;
+    position:absolute;
+    top:1750px;
+    left:1000px;
+    color:white;
+}
+
+
+
+
+
+
 
 
 
@@ -111,8 +238,9 @@ img {
     right: 140px;
     width: 200px;
     height: 120px;    
-    top:17px;
+    top:50px;
     left:1250px;
+    
 
 }
 
@@ -126,16 +254,19 @@ img {
     height:700px;
     position:absolute;
     left:1295px;
-    top:455px;
+    top:480px;
+   
 }
 
 .hp-id-img {
     position:absolute;
-    width:550px;
-    height:550px;
+    width:600px;
+    height:600px;
     top:20px;
-    left:100px;
+    left:40px;
+    
 }
+
 
 
 .hp-id-title h2 {
@@ -143,7 +274,56 @@ img {
     width:550px;
     height:550px;
     top:220px;
-    left:180px;
+    left:150px;
+    text-decoration: none;
+    color:white;
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    
+    
+}
+
+.hp-sat-img {
+    position:absolute;
+    width:600px;
+    height:600px;
+    top:20px;
+    left:650px;
+    
+}
+
+.hp-sat-title h2 {
+    position:absolute;
+    width:550px;
+    height:550px;
+    top:220px;
+    left:750px;
+    text-decoration: none;
+    color:white;
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.hp-hy-img {
+    position:absolute;
+    width:600px;
+    height:600px;
+    top:630px;
+    left:40px;
+    
+}
+
+
+.hp-hy-title h2 {
+    position:absolute;
+    width:550px;
+    height:550px;
+    top:830px;
+    left:130px;
     text-decoration: none;
     color:white;
     font-family: buckboard-pro, serif;
@@ -152,6 +332,43 @@ img {
     font-size: 70px;
     
 }
+
+.hp-cbd-img {
+    position:absolute;
+    width:600px;
+    height:600px;
+    top:630px;
+    left:650px;
+}
+
+.hp-cbd-title h2 {
+    position:absolute;
+    width:550px;
+    height:550px;
+    top:810px;
+    left:730px;
+    text-decoration: none;
+    color:white;
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
