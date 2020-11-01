@@ -114,161 +114,50 @@ img {
     top:17px;
     left:1250px;
 
-    
 }
 
 
-.hpindica h1 {
-    font-family: buckboard-pro, serif;
-    font-style: normal;
-    font-weight: 400
-   
-}
 
-.hpsativa h1{
-    font-family: buckboard-pro, serif;
-    font-style: normal;
-    font-weight: 400;
-    
-}
 
-.hphybrid h1{
-    font-family: buckboard-pro, serif;
-    font-style: normal;
-    font-weight: 400; 
-}
-
-.hpcbd h1{
-    font-family: buckboard-pro, serif;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.container-1 {
-width: 500px;
-  height: 500px;
-  position: relative;
-  top:2%;
-}
-
-.container-1 img{
-    width:550px;
-    height:550px;
-
-    top:2%;
-    
-}
-.indica-title{
-    color:white;
-    font-size:50px;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-}
-
-.container-2 {
-    width:500px;
-    height:500px;
-    padding-left:-44.5%;
-    position: relative;
-    top:2%;
-
-}
-.container-2 img{
-    width:550px;
-    height:550px;
-    padding-left:-44.5%;
+.hp-title-box {
+    border-radius: 20px;
+    background-color: rgba(137, 35, 108, 0.6);
+    width:150px;
+    height:700px;
     position:absolute;
-    top:-2%;
-}
-.sativa-title {
-    color:white;
-    font-size:50px;
-    position: absolute;
-    top:50%;
-    left:70%;
-    transform: translate(-50%,-50%);
+    left:1295px;
+    top:455px;
 }
 
-.container-3 {
-width:500px;
-height:500px;
-position: relative;
-bottom:-15%;
-
-}
-
-.container-3 img {
-    width:550px;
-    height:550px;
-    position: absolute;
-    bottom:-8%;
-    
-
-}
-
-.hybrid-title {
-    color:white;
-    font-size:50px;
-    position: absolute;
-    top:55%;
-    left:50%;
-    transform: translate(-50%,-50%);
-}
-
-.container-4 {
-    width:500px;
-    height:500px;
-    position: absolute;
-    bottom:-7%;
-    margin-left: 1%;
-}
-.container-4 img {
-    width:550px;
-    height:550px;
-    position: absolute;
-   margin-left:1%;
-    bottom:-7%;
-
-}
-
-.cbd-title {
-    color:black;
-    font-size:50px;
-    position: relative;
-    top:45%;
-    left:70%;
-    transform: translate(-50%,-50%);
-}
-
-.hpsativa  {
-    display:flex;
+.hp-id-img {
     position:absolute;
+    width:550px;
+    height:550px;
     top:20px;
-    left:700px;
+    left:100px;
+}
+
+
+.hp-id-title h2 {
+    position:absolute;
+    width:550px;
+    height:550px;
+    top:220px;
+    left:180px;
+    text-decoration: none;
+    color:white;
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
     
 }
 
-.hpcbd {
-    display:flex;
-    position:absolute;
-    top:1100px;
-    left:700px;
-    
-}
-.hphybrid {
-    display:flex;
-    position:absolute;
-    top:595px;
-    left:100px;
-}
-.hpindica {
-    display:flex;
-    position:absolute;
-    top:10px;
-    left:100px;
-}
+
+
+
+
+
 
 
 
@@ -302,14 +191,6 @@ bottom:-15%;
 .id-container .id-title h1 {
     display:flex;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -485,16 +366,16 @@ border-radius: 20px;
 }
 
 
-.id-hti-title, h4 {
+.id-hti-title h4 {
     font-family: buckboard-pro, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     position:absolute;
-    top:550px;
-    left:480px;
+    top:1100px;
+    left:950px;
     font-size:40px;
-   display:inline;
+   color:black;
 }
 
 
@@ -535,6 +416,7 @@ border-radius: 20px;
 .id-nav {
     display:flex;
     
+    
 }
 
 .id-home{
@@ -546,6 +428,7 @@ border-radius: 20px;
     font-weight: 400;
     font-size: 25px;
     color:black;
+    text-decoration: none;
 
 }
 
@@ -568,6 +451,7 @@ border-radius: 20px;
     font-weight: 400;
     font-size: 25px;
     color:black;
+    text-decoration: none;
 }
 
 .id-sat-box {
@@ -591,6 +475,7 @@ border-radius: 20px;
     font-weight: 400;
     font-size: 25px;
     color:black;
+    text-decoration: none;
 }
 
 
@@ -614,6 +499,7 @@ border-radius: 20px;
     font-weight: 400;
     font-size: 25px;
     color:black;
+    text-decoration: none;
 
 }
 
@@ -685,6 +571,7 @@ border-radius: 20px;
     font-weight: 400;
     font-size: 30px;
     color:black;
+    text-decoration: none;
 }
 .hy-home-box {
     width:150px;
@@ -707,6 +594,7 @@ border-radius: 20px;
     font-weight: 400;
     font-size: 30px;
     color:black;
+    text-decoration: none;
 }
 
 .hy-sat-box {
@@ -730,6 +618,7 @@ border-radius: 20px;
     font-weight: 400;
     font-size: 30px;
     color:black;
+    text-decoration: none;
 }
 
 .hy-id-box {
@@ -753,6 +642,7 @@ border-radius: 20px;
     font-weight: 400;
     font-size: 30px;
     color:black;
+    text-decoration: none;
 }
 
 .hy-cbd-box {
@@ -899,6 +789,229 @@ border-radius: 20px;
     font-size: 150px;
     position:absolute;
     top:150px;
-    left:40px;
+    left:100px;
     color:black;
+}
+
+.cbdpg-box-1{
+    position: absolute;
+    top:150px;
+    left:50px;
+    border-radius: 90px;
+    background-color: #89236C;
+    opacity:0.3;
+    width: 500px;
+    height: 150px;
+}
+
+.cbd-img-1 {
+    width: 1000px;
+    height: 800px;
+    left:300px;
+    position: relative;
+
+}
+
+.cbdpg-box-2 {
+    position: absolute;
+    top:330px;
+    left:50px;
+    border-radius: 90px;
+    background-color: #89236C;
+    opacity:0.3;
+    width: 1100px;
+    height: 150px;
+}
+
+
+.cbd-title-2 h2 {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    position:absolute;
+    top:730px;
+    left:170px;
+    color:black;
+}
+
+.cbd-content-1 {
+    width:400px;
+    position:absolute;
+    left:230px;
+    top:850px;
+}
+
+.cbd-content-1 p {
+    font-family: vag-rundschrift-d, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:20px;
+
+}
+
+.cbdpg-img-2 {
+    width:500px;
+    height:600px;
+    position:absolute;
+    left:800px;
+    top:950px;
+}
+
+
+.cbdpg-box-3 {
+    position: absolute;
+    top:1400px;
+    left:80px;
+    border-radius: 90px;
+    background-color: #89236C;
+    opacity:0.3;
+    width: 500px;
+    height: 700px;
+}
+
+.cbd-strains-title {
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    Position:absolute;
+    top:1450px;
+    left:120px;
+    color:white;
+}
+
+
+.cbd-content-2 p {
+    width:450px;
+    position:absolute;
+    top:1580px;
+    left:120px;
+    font-family: vag-rundschrift-d,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size:25px;
+    color:white;
+}
+
+
+.cbdpg-img-3 {
+    width:65%;
+    position:absolute;
+    top:1800px;
+    left:500px;
+}
+
+.cbdpg-box-4 {
+    width:500px;
+    height:500px;
+    border: 5px solid purple;
+    position: absolute;
+    left:850px;
+    top:1870px;
+    border-radius:30px;
+ 
+}
+
+.cbd-nav {
+    position: absolute;
+    top:2150px;
+    left:50px;
+    
+}
+
+.cbd-home {
+    position:absolute;
+    top:20px;
+    left:50px;
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+}
+
+.cbd-home-box {
+    width:120px;
+    height:50px;
+    border-radius: 30px;
+    border: 5px;
+    position: absolute;
+    top:15px;
+    left:150px;
+    background-color: #89236C;
+    opacity:0.3;
+}
+
+.cbd-sat {
+    position:absolute;
+    top:70px;
+    left:50px;
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+}
+
+.cbd-sat-box {
+    width:120px;
+    height:50px;
+    border-radius: 30px;
+    border: 5px;
+    position: absolute;
+    top:65px;
+    left:30px;
+    background-color: #89236C;
+    opacity:0.3;
+}
+
+.cbd-id {
+    position:absolute;
+    top:120px;
+    left:50px;
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+}
+
+.cbd-id-box {
+    width:120px;
+    height:50px;
+    border-radius: 30px;
+    border: 5px;
+    position: absolute;
+    top:120px;
+    left:150px;
+    background-color: #89236C;
+    opacity:0.3;
+}
+
+.cbd-hy {
+    position:absolute;
+    top:170px;
+    left:50px;
+    font-family: buckboard-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+}
+
+.cbd-hy-box {
+    width:120px;
+    height:50px;
+    border-radius: 30px;
+    border: 5px;
+    position: absolute;
+    top:160px;
+    left:30px;
+    background-color: #89236C;
+    opacity:0.3;
 }
