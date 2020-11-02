@@ -24,7 +24,7 @@ img {
 
 .satpg-box-1 {
     border-radius:80px;
-    background-color: rgba(137, 35, 108, 0.6);
+    background-color: rgba(137, 35, 108, 0.3);
     width:500px;
     height:200px;
     position:absolute;
@@ -84,7 +84,8 @@ img {
     position:absolute;
     top:700px;
     left:300px;
-    color:purple;
+    color: rgb(137, 35, 108);
+    ;
 }
 
 .satpg-img-3 {
