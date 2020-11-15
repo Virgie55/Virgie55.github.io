@@ -3,9 +3,7 @@ img{
     margin:0;
 }
 
-div, .con-img {
-    background-image:url(images//contact-27.png)
-}
+
 
 .rubyjlogo{
     width:300px;
@@ -14,3 +12,183 @@ div, .con-img {
     top:950px;
     left:1100px;
 }
+
+
+@media (max-width: 768px) {
+  body, .menu-pg {
+    background-image: url("images//Flavours-29.png");
+    background-color: 0;
+    margin:0;
+    margin-bottom: 0;
+    background-size: 100%;
+    font-family: pacifico, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-repeat:round;
+   background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px){
+    .title-grid {
+   
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    body, .menu-title {
+      font-family: pacifico, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      
+     
+      
+    }
+  }
+
+  
+
+
+  @media (max-width: 768px) {
+     .title-grid .menu-title h2 {
+    font-family: pacifico, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:80px;
+    text-align: center;
+    
+    
+    }
+}
+
+
+  @media (max-width: 768px) {
+    body .menu-oat-title {
+        font-family: pacifico, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:30px;
+        text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+    .menu-oat-title, h3 
+    {font-family: pacifico, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:40px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    body, .oat-info {
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:20px;
+    padding:10px;
+
+  }
+}
+
+@media (max-width: 768px) {
+   .oat-line {
+    border-top: 1.5px solid black;
+    width:570px;
+   
+}
+}
+
+@media (max-width: 768px) {
+    .lemon-line {
+     border-top: 1.5px solid black;
+     width:570px;
+    
+ }
+ }
+
+ @media (max-width: 768px) {
+    .dark-line {
+     border-top: 1.5px solid black;
+     width:570px;
+    
+ }
+ }
+
+ @media (max-width: 768px) {
+    .vanilla-line {
+     border-top: 1.5px solid black;
+     width:570px;
+    
+ }
+ }
+
+ @media (max-width: 768px) {
+    .salted-line {
+     border-top: 1.5px solid black;
+     width:570px;
+    
+ }
+ }
+
+
+ @media (max-width: 768px) {
+    .brown-line {
+     border-top: 1.5px solid black;
+     width:570px;
+    
+ }
+ }
+
+
+
+ @media (max-width: 768px) {
+    .second-line {
+     border-top: 4px solid black;
+     width:570px;
+     position:absolute;
+     top:230px;
+    
+ }
+ }
+
+
+
+ @media (max-width: 768px) {
+    .main-line {
+     border-top: 2px solid black;
+     width:570px;
+     position:absolute;
+     top:50px;
+    
+ }
+ }
+
+
+
+
+
+ @media (max-width: 768px) {
+    .rubyjlogo {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:500px;
+    height:200px;
+    
+ }
+ }
+
+ @media (max-width: 768px) {
+    .see-more {
+    font-family: bree, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+ }
+ }
