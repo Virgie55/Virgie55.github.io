@@ -15,7 +15,7 @@ img{
 
 
 @media (max-width: 768px) {
-  body, .menu-pg {
+   .menu-pg {
     background-image: url("images//Flavours-29.png");
     background-color: 0;
     margin:0;
@@ -27,17 +27,7 @@ img{
     background-repeat:round;
    background-attachment: fixed;
   }
-}
 
-@media (max-width: 768px){
-    .title-grid {
-   
-    }
-}
-
-
-
-@media (max-width: 768px) {
     body, .menu-title {
       font-family: pacifico, sans-serif;
       font-weight: 400;
@@ -46,12 +36,7 @@ img{
      
       
     }
-  }
 
-  
-
-
-  @media (max-width: 768px) {
      .title-grid .menu-title h2 {
     font-family: pacifico, sans-serif;
     font-weight: 400;
@@ -61,10 +46,7 @@ img{
     
     
     }
-}
 
-
-  @media (max-width: 768px) {
     body .menu-oat-title {
         font-family: pacifico, sans-serif;
         font-weight: 400;
@@ -72,9 +54,7 @@ img{
         font-size:30px;
         text-align: center;
   }
-}
 
-@media (max-width: 768px) {
     .menu-oat-title, h3 
     {font-family: pacifico, sans-serif;
         font-weight: 400;
@@ -82,9 +62,7 @@ img{
         font-size:40px;
         text-align: center;
     }
-}
 
-@media (max-width: 768px) {
     body, .oat-info {
     font-family: bree,sans-serif;
     font-weight: 300;
@@ -95,60 +73,92 @@ img{
     padding:10px;
 
   }
-}
 
-@media (max-width: 768px) {
+  .lemon-info{
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:20px;
+    padding:10px;
+  }
+
+  .dark-info{
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:20px;
+    padding:10px;
+  }
+
+  .vanilla-info{
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:20px;
+    padding:10px;
+  }
+
+  .salted-info{
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:20px;
+    padding:10px;
+  }
+
+  .brown-info{
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:20px;
+    padding:10px;
+  }
    .oat-line {
     border-top: 1.5px solid black;
     width:570px;
    
 }
-}
 
-@media (max-width: 768px) {
     .lemon-line {
      border-top: 1.5px solid black;
      width:570px;
     
  }
- }
-
- @media (max-width: 768px) {
+ 
     .dark-line {
      border-top: 1.5px solid black;
      width:570px;
     
  }
- }
-
- @media (max-width: 768px) {
+ 
     .vanilla-line {
      border-top: 1.5px solid black;
      width:570px;
     
  }
- }
 
- @media (max-width: 768px) {
     .salted-line {
      border-top: 1.5px solid black;
      width:570px;
     
  }
- }
-
-
- @media (max-width: 768px) {
+ 
     .brown-line {
      border-top: 1.5px solid black;
      width:570px;
     
  }
- }
 
-
-
- @media (max-width: 768px) {
     .second-line {
      border-top: 4px solid black;
      width:570px;
@@ -156,11 +166,7 @@ img{
      top:230px;
     
  }
- }
-
-
-
- @media (max-width: 768px) {
+ 
     .main-line {
      border-top: 2px solid black;
      width:570px;
@@ -168,27 +174,177 @@ img{
      top:50px;
     
  }
- }
-
-
-
-
-
- @media (max-width: 768px) {
+ 
     .rubyjlogo {
     position:absolute;
-    left:10px;
+    left:30px;
     top:10px;
     width:500px;
     height:200px;
     
  }
- }
 
- @media (max-width: 768px) {
     .see-more {
     font-family: bree, sans-serif;
     font-weight: 700;
     font-style: normal;
  }
  }
+
+ @media (max-width: 768px) {
+      .index-pg {
+            background-image: url("images/mobilhp-26.png");
+            background-size: 100%;
+            background-repeat:round;
+            background-attachment: fixed;
+            margin:0;
+            padding:0;
+            margin-left: 0;
+          }
+
+          .home-line {
+            border-top: 4px solid black;
+            width:500px;
+            align-items: center;
+          }
+          
+           .home-pg-nav a{
+            text-decoration: none;
+            font-family: bree,sans-serif;
+             font-weight: 300;
+            font-style: normal;
+            text-align:center;
+            color:#331C0C;
+            font-size:40px;
+            padding-bottom:30px;
+            
+            
+            }
+
+         body .home-pg-nav {
+              position:absolute;
+              top:400px;
+              left:100px;
+              font-family: bree,sans-serif;
+             font-weight: 300;
+            font-style: normal;
+            text-align:center;
+            color:#331C0C;
+            font-size:40px;
+            padding-bottom:30px;
+          }
+
+          .home-pg-nav a:visited{
+            text-decoration: none;
+            color: black;
+          }
+        }
+         
+        @media (max-width: 768px) {
+            .loc-pg{
+            background-image: url("images//mobillocation-24.png");
+            background-size: 100%;
+            width:100%;
+            background-repeat:round;
+            background-attachment: fixed;
+            margin:0;
+            padding:0;
+            margin-left: 0;
+            }
+            .loc-pg .loc-grid-1{
+                display:grid;
+            }
+            .loc-h1 h2{
+                position:absolute;
+                top:210px;
+                left:100px;
+                font-family: pacifico, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size:70px;
+                
+                
+            }
+            .loc-h2 p {
+                position:absolute;
+                top:450px;
+                font-family: bree,sans-serif;
+                font-weight: 300;
+               font-style: normal;
+               text-align:center;
+               color:#331C0C;
+               font-size:20px;
+               padding:20px;
+            }
+            
+            .loc-h2 ul{
+                position:absolute;
+                top:650px;
+                left:150px;
+                font-family: bree,sans-serif;
+                font-weight: 300;
+               font-style: normal;
+               text-align:center;
+               color:#331C0C;
+               font-size:20px;
+               padding:20px;
+            }
+
+            .loc-grid-2{
+                display:grid;
+                position:absolute;
+                top:1000px;
+            }
+
+            .loc-grid-2 .loc-h3{
+                position:absolute;
+                top:-150px;
+                left:150px;
+                font-size:80px;
+            }
+
+            .loc-add-1 {
+                position:relative;
+                top:40px;
+            }
+            .loc-add-2 {
+                position:relative;
+                top:40px;
+            }
+            .loc-add-3 {
+                position:relative;
+                top:40px;
+            }
+            .loc-info-1 {
+                position:relative;
+                top:20px;
+                left:20px;
+            }
+            .loc-info-2 {
+                position:relative;
+                top:20px;
+                left:20px;
+            }
+            .loc-info-3 {
+                position:relative;
+                top:20px;
+                left:20px;
+            }
+            .loc-nav {
+            position:absolute;
+            top:20px;
+            left:85px;
+            font-family: bree,sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            text-align:center;
+            color:#331C0C;
+            font-size:20px;
+            padding-right:30px;
+
+         }
+            .loc-nav a {
+                text-decoration: none;
+            color: black;
+            }
+        }
