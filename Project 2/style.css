@@ -12,6 +12,10 @@ img{
     top:950px;
     left:1100px;
 }
+@media (max-width: 768px) {
+    img{
+        width:100%;
+    }
 
 
 @media (max-width: 768px) {
@@ -181,7 +185,11 @@ img{
     top:10px;
     width:500px;
     height:200px;
+    z-index:-1;
     
+ }
+ header{
+     z-index:1;
  }
 
     .see-more {
@@ -189,7 +197,7 @@ img{
     font-weight: 700;
     font-style: normal;
  }
- }
+ 
 
  @media (max-width: 768px) {
       .index-pg {
@@ -299,7 +307,7 @@ img{
             .loc-grid-2 .loc-h3{
                 position:absolute;
                 top:-150px;
-                left:150px;
+                left:175px;
                 font-size:80px;
             }
 
@@ -346,5 +354,70 @@ img{
             .loc-nav a {
                 text-decoration: none;
             color: black;
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            .about-pg{
+                background-image: url("images//mobilaboutus-26.png");
+                background-size: 100%;
+                width:100%;
+                background-repeat:round;
+                background-attachment: fixed;
+                margin:0;
+                padding:0;
+                margin-left: 0;
+            }
+            .about-pg-nav{
+                display:grid;
+            }
+            .about-contact{
+                position:absolute;
+            }
+
+            .about-home {
+                position:absolute;
+                left:150px;
+            }
+
+            .about-menu{
+                position:absolute;
+                left:450px;
+            }
+            .about-loc {
+                position:absolute;
+                left:250px;
+            }
+            .about-grid-1{
+                display:grid;
+        
+            }
+            .about-title h2 {
+                position:absolute;
+                top:170px;
+                left:170px;
+                font-family: pacifico, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size:70px;
+                
+            }
+            .about-info {
+                position:absolute;
+                top:450px;
+                left:20px;
+                font-family: bree,sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                text-align:center;
+                color:#331C0C;
+                font-size:20px;
+                padding:20px;
+                width:500px;
+            }
+
+            .about-grid-2{
+                display:grid;
             }
         }
