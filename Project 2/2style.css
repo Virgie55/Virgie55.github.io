@@ -351,7 +351,7 @@ img{
 .about-pg{
     display:flex;
     flex-direction: column;
-    background-image: url("images/mobilaboutus-26.png");
+    background-image: url("images/about-28.png");
     background-size: 100%;
     background-repeat:round;
     background-attachment: fixed;
@@ -459,7 +459,43 @@ img{
 }
 
 
+* { box-sizing: border-box; }
+		img { width: 100%; }
+.second-line {
+     border-top: 3px solid black;
+     width:100vw;  
+     padding:0;
+     margin:0;
+ }
+ nav {text-align: center;
+}
 
+ .menu-pg {
+ 	background-image: url("images/Flavours-29.png");
+ 	background-size: cover;
+ }
+
+ header img {
+ 		padding: 0 120px;
+ }
+
+ .title-grid {
+ 	width: 90vw;
+ 	margin: auto;
+     
+ }
+
+.menu-title h2 {
+    text-align: center;
+        font-family: pacifico, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:70px;
+        text-align: center;
+        color:#331C0C;
+        padding:0;
+        margin:0;
+}
 
 
         
