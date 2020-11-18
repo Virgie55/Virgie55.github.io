@@ -5,13 +5,7 @@ img{
 
 
 
-.rubyjlogo{
-    width:300px;
-    height:100px;
-    position:absolute;
-    top:950px;
-    left:1100px;
-}
+
 @media (max-width: 768px) {
     img{
         width:100%;
@@ -212,7 +206,7 @@ img{
 
           .home-line {
             border-top: 4px solid black;
-            width:500px;
+            width:100vw;
             align-items: center;
           }
           
@@ -283,12 +277,13 @@ img{
                color:#331C0C;
                font-size:20px;
                padding:20px;
+               
             }
             
             .loc-h2 ul{
                 position:absolute;
                 top:650px;
-                left:150px;
+                left:170px;
                 font-family: bree,sans-serif;
                 font-weight: 300;
                font-style: normal;
@@ -296,6 +291,7 @@ img{
                color:#331C0C;
                font-size:20px;
                padding:20px;
+               
             }
 
             .loc-grid-2{
@@ -305,10 +301,16 @@ img{
             }
 
             .loc-grid-2 .loc-h3{
-                position:absolute;
-                top:-150px;
-                left:175px;
-                font-size:80px;
+                display:grid;
+                
+            }
+
+            .loc-h3 h3{
+                font-size:70px;
+                text-align: center;
+                width:90vw;
+                margin:auto;
+                top:-400px;
             }
 
             .loc-add-1 {
@@ -348,11 +350,11 @@ img{
             text-align:center;
             color:#331C0C;
             font-size:20px;
-            padding-right:30px;
+            padding-right:80px;
 
          }
             .loc-nav a {
-                text-decoration: none;
+            text-decoration: none;
             color: black;
             }
         }
