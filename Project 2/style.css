@@ -1,24 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
 img{
     width:100%;
     margin:0;
 }
 
+<<<<<<< HEAD
 
 
 
 @media (max-width: 768px) {
+=======
+>>>>>>> 0497cf7c164f0f3e7e3109d89f3b265c42657124
     img{
         width:100%;
     }
 
 
-@media (max-width: 768px) {
+
    .menu-pg {
-    background-image: url("images//Flavours-29.png");
+    background-image: url("images/Flavours-29.png");
     background-color: 0;
     margin:0;
     margin-bottom: 0;
-    background-size: 100%;
+    background-size: cover;
     font-family: pacifico, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -159,7 +166,7 @@ img{
 
     .second-line {
      border-top: 4px solid black;
-     width:570px;
+     width:100vw;
      position:absolute;
      top:230px;
     
@@ -174,16 +181,19 @@ img{
  }
  
     .rubyjlogo {
-    position:absolute;
-    left:30px;
+    /*position:absolute;*/
+    left:0;
     top:10px;
-    width:500px;
+    width:100vw;
     height:200px;
-    z-index:-1;
+    margin-top: 80px;
     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
  }
- header{
-     z-index:1;
+ .rubyjlogo img {
+    padding: 0 120px;
  }
 
     .see-more {
@@ -193,7 +203,7 @@ img{
  }
  
 
- @media (max-width: 768px) {
+
       .index-pg {
             background-image: url("images/mobilhp-26.png");
             background-size: 100%;
@@ -240,9 +250,8 @@ img{
             text-decoration: none;
             color: black;
           }
-        }
-         
-        @media (max-width: 768px) {
+
+
             .loc-pg{
             background-image: url("images//mobillocation-24.png");
             background-size: 100%;
@@ -357,9 +366,9 @@ img{
             text-decoration: none;
             color: black;
             }
-        }
 
-        @media (max-width: 768px) {
+
+
 
             .about-pg{
                 background-image: url("images//mobilaboutus-26.png");
@@ -422,4 +431,4 @@ img{
             .about-grid-2{
                 display:grid;
             }
-        }
+
