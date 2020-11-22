@@ -19,7 +19,7 @@ img{
         flex-direction:column;
         justify-content:center;
         margin:auto;
-        width:100vw;
+        width:70vw;
         
         }
         .loc-nav {
@@ -27,6 +27,7 @@ img{
         flex-direction:row;
         justify-content:center;
         padding-left:20px;
+        padding-top: 40px;
 
         }
         .loc-home-nav a {
@@ -460,18 +461,20 @@ img{
 
 
 * { box-sizing: border-box; }
-		img { width: 100%; }
+        img { width: 100%; }
+        
 .second-line {
      border-top: 3px solid black;
      width:100vw;  
      padding:0;
      margin:0;
+
  }
  nav {text-align: center;
 }
 
  .menu-pg {
- 	background-image: url("images/Flavours-29.png");
+ 	background-image: url("images/mobilmenu-27-02.png");
  	background-size: cover;
  }
 
@@ -496,6 +499,312 @@ img{
         padding:0;
         margin:0;
 }
+.menu-grid-1 {
+    display:flex;
+    flex-direction: column;
+}
+
+.menu-oat-title h3 {
+    font-family: pacifico, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+    text-align: center;
+    flex-direction: column;
+    width:100vw;
+    line-height: 95%;
+    color:#331C0C;
+}
+.oat-info {
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:17px;
+    padding:25px; 
+}
+.menu-lemon-title h3 {
+    font-family: pacifico, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+    text-align: center;
+    flex-direction: column;
+    width:100vw;
+    line-height: 95%;
+    color:#331C0C;
+}
+.lemon-info {
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:17px;
+    padding:25px; 
+}
+.menu-dark-title h3{
+    font-family: pacifico, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+    text-align: center;
+    flex-direction: column;
+    width:100vw;
+    line-height: 95%;
+    color:#331C0C;
+}
+.dark-info {
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:17px;
+    padding:25px;
+}
+.menu-vanilla-title h3{
+    font-family: pacifico, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+    text-align: center;
+    flex-direction: column;
+    width:100vw;
+    line-height: 95%;
+    color:#331C0C;
+}
+.vanilla-info {
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:17px;
+    padding:25px;
+}
+.menu-salted-title h3{
+    font-family: pacifico, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+    text-align: center;
+    flex-direction: column;
+    width:100vw;
+    line-height: 95%;
+    color:#331C0C;
+}
+.salted-info {
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:17px;
+    padding:25px;
+}
+.menu-brown-title h3{
+    font-family: pacifico, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+    text-align: center;
+    flex-direction: column;
+    width:100vw;
+    line-height: 95%;
+    color:#331C0C;
+}
+.brown-info{
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:17px;
+    padding:25px;
+
+}
+
+@media (min-width: 768px) {
 
 
-        
+
+.index-pg {
+    background-image: url("images/hp-27.png");
+ 	background-size: cover;
+}
+  .hp-logo img{
+    display:flex;
+    width:70vw;
+    margin:auto;
+    text-align: center;
+  }
+  
+}
+@media (min-width: 768px) {
+
+.menu-pg{
+    display:grid;
+    background-image:url("images/Flavours-29.png");
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+.rubyjlogo img{
+    width:25vw;
+   position:absolute;
+   top:1200px;
+   left:520px;
+
+
+}
+.menu-nav {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  
+}
+.menu-contact a{
+    flex:1;
+    text-decoration: none;
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:30px;
+}
+.menu-about a{
+    flex:2;
+    padding:20px;
+    text-decoration: none;
+    font-family: bree,sans-serif;
+     font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:30px;
+
+}
+.menu-home a{
+    flex:3;
+    padding:20px;
+    text-decoration: none;
+    font-family: bree,sans-serif;
+     font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:30px;
+}
+.menu-loc a{
+    flex:4;
+    padding:20px;
+    text-decoration: none;
+    font-family: bree,sans-serif;
+     font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:30px;
+}
+.title-grid{
+    display:flex;
+    flex-direction: column;
+    
+}
+.menu-title h2{
+    font-size:100px;
+    margin:0;
+    padding:0;
+    padding-top:0;
+    justify-content: center;
+    line-height: 60px;
+}
+.menu-grid-1 {
+    display:grid;
+}
+
+.menu-vanilla-title h3{
+    position: absolute;
+    top:1200px;
+}
+.menu-oat-title h3{
+    display:grid;
+    position:absolute;
+    top:275px;
+    left:-400px;
+
+}
+.oat-info{
+    position:absolute;
+    top:370px;
+    left:90px;
+    width:500px;
+}
+
+.menu-grid-2{
+    display:grid;
+}
+.menu-lemon-title{
+   display:grid;
+   position:absolute;
+   left:300px;
+   top:275px;
+}
+.lemon-info{
+    position:absolute;
+    left:800px;
+    top:370px;
+    width:500px;
+}
+.menu-dark-title h3 {
+    position:absolute;
+    top:560px;
+    left:-400px;
+}
+.dark-info{
+    position:absolute;
+    top:660px;
+    left:70px;
+    width:500px;
+}
+}
+.menu-vanilla-title h3{
+    position:absolute;
+    left:300px;
+    top:850px;
+}
+.vanilla-info {
+    position:absolute;
+    left:780px;
+    top:945px;
+    width:500px;
+}
+.menu-salted-title h3{
+position: absolute;
+top:850px;
+left:-420px;
+}
+.salted-info {
+    position:absolute;
+    top:950px;
+    left:50px;
+    width:500px;
+}
+.second-line {
+    width:100%;
+}
+.menu-brown-title h3{
+    position: absolute;
+    top:550px;
+    left:300px;
+}
+.brown-info {
+    position:absolute;
+    top:650px;
+    left:790px;
+    width:500px;
+}
+
