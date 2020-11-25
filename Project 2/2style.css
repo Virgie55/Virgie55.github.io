@@ -343,6 +343,7 @@ img{
         color:#331C0C;
         padding:0;
         margin:0;
+        line-height: 20px;
 }
 .about-info{
     font-family: bree,sans-serif;
@@ -367,6 +368,7 @@ img{
         color:#331C0C;
         padding:0;
         margin:0;
+        line-height: 20px;
 }
 .about-info-2{
     font-family: bree,sans-serif;
