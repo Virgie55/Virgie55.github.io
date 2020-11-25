@@ -688,6 +688,13 @@ img{
     overflow: hidden;
     background-color: #333;
     position: relative;
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:17px;
+    
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -702,6 +709,7 @@ img{
     text-decoration: none;
     font-size: 17px;
     display: block;
+
   }
   
   /* Style the hamburger menu */
@@ -721,7 +729,7 @@ img{
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #4CAF50;
+    background-color: #331C0C;
     color: white;
   }
 
