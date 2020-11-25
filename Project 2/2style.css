@@ -267,56 +267,7 @@ img{
     margin-left: 0;
 
 }
-    .contact-nav {
-        display:flex;
-        flex-direction:row;
-        justify-content:center;
-        padding-left:20px;
-        
-    }
-    .contact-home a{
-        flex:1;
-        text-decoration: none;
-        font-family: bree,sans-serif;
-         font-weight: 300;
-        font-style: normal;
-        text-align:center;
-        color:#331C0C;
-        font-size:20px;
-    }
-    .contact-about a{
-        flex:2;
-            padding:20px;
-            text-decoration: none;
-            font-family: bree,sans-serif;
-             font-weight: 300;
-            font-style: normal;
-            text-align:center;
-            color:#331C0C;
-            font-size:20px;
-    }
-    .contact-menu a{
-        flex:3;
-        padding:20px;
-        text-decoration: none;
-        font-family: bree,sans-serif;
-         font-weight: 300;
-        font-style: normal;
-        text-align:center;
-        color:#331C0C;
-        font-size:20px;
-    }
-    .contact-loc a{
-        flex:4;
-        padding:20px;
-        text-decoration: none;
-        font-family: bree,sans-serif;
-         font-weight: 300;
-        font-style: normal;
-        text-align:center;
-        color:#331C0C;
-        font-size:20px;
-    }
+  
     .con-grid-1{
         display:flex;
         flex-direction: column;
@@ -377,55 +328,7 @@ img{
     margin-left: 0;
 }
     
-.about-nav {
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    padding-left:20px;
-}
-.about-home a{
-    flex:1;
-    text-decoration: none;
-    font-family: bree,sans-serif;
-     font-weight: 300;
-    font-style: normal;
-    text-align:center;
-    color:#331C0C;
-    font-size:20px;
-}
-.about-contact a{
-        flex:2;
-        padding:20px;
-        text-decoration: none;
-        font-family: bree,sans-serif;
-         font-weight: 300;
-        font-style: normal;
-        text-align:center;
-        color:#331C0C;
-        font-size:20px;
-}
-.about-menu a{
-    flex:3;
-    padding:20px;
-    text-decoration: none;
-    font-family: bree,sans-serif;
-     font-weight: 300;
-    font-style: normal;
-    text-align:center;
-    color:#331C0C;
-    font-size:20px;
-}
-.about-loc a{
-    flex:4;
-    padding:20px;
-    text-decoration: none;
-    font-family: bree,sans-serif;
-     font-weight: 300;
-    font-style: normal;
-    text-align:center;
-    color:#331C0C;
-    font-size:20px;
-}
+
 .about-grid-1{
     display:flex;
     flex-direction: column;
@@ -486,66 +389,21 @@ img{
      margin:0;
 
  }
- .rubyjlogo{
-     text-align: center;
-     width:20;
- }
+.menu-logo img {
+    padding:20px;
+    padding-bottom: 40px;
+}
+ 
 
- nav {
-     display:flex;
-     text-align: center;
-     padding:10px;
-     padding-left: 30px;
-     
 
-}
-.menu-contact{
-    flex-direction: row;
-    flex:1;
-    text-decoration: none;
-    font-family: bree,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align:center;
-    color:#331C0C;
-    font-size:15px;
-
-}
-
-.menu-about {
-    flex-direction: row;
-    flex:2;
-    text-decoration: none;
-    font-family: bree,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align:center;
-    color:#331C0C;
-    font-size:20px;
-}
-}
-.menu-home{
-    flex-direction:row;
-    flex:3;
-}
-.menu-loc {
-    flex-direction: row;
-    flex:4;
-}
  .menu-pg {
  	background-image: url("images/mobilmenu-27-02.png");
     background-size: cover;
  }
 
- header img {
- 		padding: 0 120px;
- }
 
- .title-grid {
- 	width: 90vw;
- 	margin: auto;
-     
- }
+
+
 
 .menu-title h2 {
     text-align: center;
