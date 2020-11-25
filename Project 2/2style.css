@@ -194,6 +194,8 @@ img{
         display:flex;
         flex-direction:column;
         text-align: center;
+        padding-top: 200px;
+        color:#331C0C;
         
     }
     .home-contact{
@@ -471,13 +473,54 @@ img{
      margin:0;
 
  }
- nav {
+ .rubyjlogo{
      text-align: center;
+     width:20;
+ }
+
+ nav {
+     display:flex;
+     text-align: center;
+     padding:10px;
+     padding-left: 30px;
+
+}
+.menu-contact{
+    flex-direction: row;
+    flex:1;
+    text-decoration: none;
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:15px;
+
 }
 
+.menu-about {
+    flex-direction: row;
+    flex:2;
+    text-decoration: none;
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    color:#331C0C;
+    font-size:20px;
+}
+}
+.menu-home{
+    flex-direction:row;
+    flex:3;
+}
+.menu-loc {
+    flex-direction: row;
+    flex:4;
+}
  .menu-pg {
  	background-image: url("images/mobilmenu-27-02.png");
- 	background-size: cover;
+    background-size: cover;
  }
 
  header img {
@@ -495,7 +538,7 @@ img{
         font-family: pacifico, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size:70px;
+        font-size:90px;
         text-align: center;
         color:#331C0C;
         padding:0;
@@ -519,7 +562,7 @@ img{
 }
 .oat-info {
     font-family: bree, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     text-align:center;
     color:#331C0C;
