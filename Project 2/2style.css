@@ -246,7 +246,10 @@ img{
     }
     .home-pg-nav a:visited{
         text-decoration: none;
-        color: black;
+        color:#331C0C;
+      }
+      .index-pg .hp-logo img {
+        padding: 20px;
       }
 
 .contact-pg{
