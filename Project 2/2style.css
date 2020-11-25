@@ -74,10 +74,13 @@ img{
             text-align:center;
             color:#331C0C;
             font-size:20px;
+            cursor: pointer;
+
         }
         .loc-nav a:visited{
             text-decoration: none;
-            color: black;
+            color: #331C0C;
+            
           }
 
   .loc-grid-1 {
@@ -328,6 +331,7 @@ img{
         color:#331C0C;
         padding:0;
         margin:0;
+        line-height: 15px;
     }
     .con-1-p {
         font-family: bree,sans-serif;
@@ -340,9 +344,10 @@ img{
         
     }
     .con-line {
-        border-top: 4px solid black;
+        border-top: 3px solid #331C0C;
         width:100vw;
         align-items: center;
+        
     }
     .con-grid-2 {
         display:flex;
@@ -356,6 +361,9 @@ img{
         color:#331C0C;
         font-size:20px;
         padding:30px;
+    }
+    .con-logo {
+        padding:20px;
     }
 .about-pg{
     display:flex;
