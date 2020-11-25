@@ -1,434 +1,104 @@
-* {
-    box-sizing: border-box;
+.nav,
+.desktop {
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 900;
 }
 
-img{
-    width:100%;
-    margin:0;
+.icon {
+  position: fixed;
+  cursor: pointer;
+  top: 5%;
+  right: 0%;
+  width: 40px;
+  height: 45px;
+  transform: translate(-50%, -50%);
+  display: block;
+  z-index: 1000;
 }
 
-<<<<<<< HEAD
-
-
-
-@media (max-width: 768px) {
-=======
->>>>>>> 0497cf7c164f0f3e7e3109d89f3b265c42657124
-    img{
-        width:100%;
-    }
-
-
-
-   .menu-pg {
-    background-image: url("images/Flavours-29.png");
-    background-color: 0;
-    margin:0;
-    margin-bottom: 0;
-    background-size: cover;
-    font-family: pacifico, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background-repeat:round;
-   background-attachment: fixed;
-  }
-
-    body, .menu-title {
-      font-family: pacifico, sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      
-     
-      
-    }
-
-     .title-grid .menu-title h2 {
-    font-family: pacifico, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size:80px;
-    text-align: center;
-    
-    
-    }
-
-    body .menu-oat-title {
-        font-family: pacifico, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size:30px;
-        text-align: center;
-  }
-
-    .menu-oat-title, h3 
-    {font-family: pacifico, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size:40px;
-        text-align: center;
-    }
-
-    body, .oat-info {
-    font-family: bree,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align:center;
-    color:#331C0C;
-    font-size:20px;
-    padding:10px;
-
-  }
-
-  .lemon-info{
-    font-family: bree,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align:center;
-    color:#331C0C;
-    font-size:20px;
-    padding:10px;
-  }
-
-  .dark-info{
-    font-family: bree,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align:center;
-    color:#331C0C;
-    font-size:20px;
-    padding:10px;
-  }
-
-  .vanilla-info{
-    font-family: bree,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align:center;
-    color:#331C0C;
-    font-size:20px;
-    padding:10px;
-  }
-
-  .salted-info{
-    font-family: bree,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align:center;
-    color:#331C0C;
-    font-size:20px;
-    padding:10px;
-  }
-
-  .brown-info{
-    font-family: bree,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align:center;
-    color:#331C0C;
-    font-size:20px;
-    padding:10px;
-  }
-   .oat-line {
-    border-top: 1.5px solid black;
-    width:570px;
-   
+.hamburger {
+  width: 40px;
+  height: 4px;
+  line-height: 70px;
+  background: #666;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
 }
 
-    .lemon-line {
-     border-top: 1.5px solid black;
-     width:570px;
-    
- }
- 
-    .dark-line {
-     border-top: 1.5px solid black;
-     width:570px;
-    
- }
- 
-    .vanilla-line {
-     border-top: 1.5px solid black;
-     width:570px;
-    
- }
+.hamburger:before,
+.hamburger:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  background: #666;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
 
-    .salted-line {
-     border-top: 1.5px solid black;
-     width:570px;
-    
- }
- 
-    .brown-line {
-     border-top: 1.5px solid black;
-     width:570px;
-    
- }
+.hamburger:before {
+  top: -10px;
+}
 
-    .second-line {
-     border-top: 4px solid black;
-     width:100vw;
-     position:absolute;
-     top:230px;
-    
- }
- 
-    .main-line {
-     border-top: 2px solid black;
-     width:570px;
-     position:absolute;
-     top:50px;
-    
- }
- 
-    .rubyjlogo {
-    /*position:absolute;*/
-    left:0;
-    top:10px;
-    width:100vw;
-    height:200px;
-    margin-top: 80px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
- }
- .rubyjlogo img {
-    padding: 0 120px;
- }
+.hamburger:after {
+  top: 10px;
+}
 
-    .see-more {
-    font-family: bree, sans-serif;
-    font-weight: 700;
-    font-style: normal;
- }
- 
+.icon.active .hamburger {
+  background: rgba(0, 0, 0, 0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+}
 
+.icon.active .hamburger:before {
+  top: 0;
+  transform: rotate(45deg);
+}
 
-      .index-pg {
-            background-image: url("images/mobilhp-26.png");
-            background-size: 100%;
-            background-repeat:round;
-            background-attachment: fixed;
-            margin:0;
-            padding:0;
-            margin-left: 0;
-          }
+.icon.active .hamburger:after {
+  top: 0;
+  transform: rotate(135deg);
+}
 
-          .home-line {
-            border-top: 4px solid black;
-            width:100vw;
-            align-items: center;
-          }
-          
-           .home-pg-nav a{
-            text-decoration: none;
-            font-family: bree,sans-serif;
-             font-weight: 300;
-            font-style: normal;
-            text-align:center;
-            color:#331C0C;
-            font-size:40px;
-            padding-bottom:30px;
-            
-            
-            }
+.menu-mobile {
+  background-color: #efefef;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding-top: 150px;
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+}
 
-         body .home-pg-nav {
-              position:absolute;
-              top:400px;
-              left:100px;
-              font-family: bree,sans-serif;
-             font-weight: 300;
-            font-style: normal;
-            text-align:center;
-            color:#331C0C;
-            font-size:40px;
-            padding-bottom:30px;
-          }
+.menu-mobile,
+.menu-mobile a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.menu-mobile a {
+  clear: right;
+  text-decoration: none;
+  color: #333;
+  height: 70px;
+  line-height: 70px;
+}
+.menu-mobile a:hover {
+  color: red;
+}
 
-          .home-pg-nav a:visited{
-            text-decoration: none;
-            color: black;
-          }
-
-
-            .loc-pg{
-            background-image: url("images//mobillocation-24.png");
-            background-size: 100%;
-            width:100%;
-            background-repeat:round;
-            background-attachment: fixed;
-            margin:0;
-            padding:0;
-            margin-left: 0;
-            }
-            .loc-pg .loc-grid-1{
-                display:grid;
-            }
-            .loc-h1 h2{
-                position:absolute;
-                top:210px;
-                left:100px;
-                font-family: pacifico, sans-serif;
-                font-weight: 400;
-                font-style: normal;
-                font-size:70px;
-                
-                
-            }
-            .loc-h2 p {
-                position:absolute;
-                top:450px;
-                font-family: bree,sans-serif;
-                font-weight: 300;
-               font-style: normal;
-               text-align:center;
-               color:#331C0C;
-               font-size:20px;
-               padding:20px;
-               
-            }
-            
-            .loc-h2 ul{
-                position:absolute;
-                top:650px;
-                left:170px;
-                font-family: bree,sans-serif;
-                font-weight: 300;
-               font-style: normal;
-               text-align:center;
-               color:#331C0C;
-               font-size:20px;
-               padding:20px;
-               
-            }
-
-            .loc-grid-2{
-                display:grid;
-                position:absolute;
-                top:1000px;
-            }
-
-            .loc-grid-2 .loc-h3{
-                display:grid;
-                
-            }
-
-            .loc-h3 h3{
-                font-size:70px;
-                text-align: center;
-                width:90vw;
-                margin:auto;
-                top:-400px;
-            }
-
-            .loc-add-1 {
-                position:relative;
-                top:40px;
-            }
-            .loc-add-2 {
-                position:relative;
-                top:40px;
-            }
-            .loc-add-3 {
-                position:relative;
-                top:40px;
-            }
-            .loc-info-1 {
-                position:relative;
-                top:20px;
-                left:20px;
-            }
-            .loc-info-2 {
-                position:relative;
-                top:20px;
-                left:20px;
-            }
-            .loc-info-3 {
-                position:relative;
-                top:20px;
-                left:20px;
-            }
-            .loc-nav {
-            position:absolute;
-            top:20px;
-            left:85px;
-            font-family: bree,sans-serif;
-            font-weight: 300;
-            font-style: normal;
-            text-align:center;
-            color:#331C0C;
-            font-size:20px;
-            padding-right:80px;
-
-         }
-            .loc-nav a {
-            text-decoration: none;
-            color: black;
-            }
-
-
-
-
-            .about-pg{
-                background-image: url("images//mobilaboutus-26.png");
-                background-size: 100%;
-                width:100%;
-                background-repeat:round;
-                background-attachment: fixed;
-                margin:0;
-                padding:0;
-                margin-left: 0;
-            }
-            .about-pg-nav{
-                display:grid;
-            }
-            .about-contact{
-                position:absolute;
-            }
-
-            .about-home {
-                position:absolute;
-                left:150px;
-            }
-
-            .about-menu{
-                position:absolute;
-                left:450px;
-            }
-            .about-loc {
-                position:absolute;
-                left:250px;
-            }
-            .about-grid-1{
-                display:grid;
-        
-            }
-            .about-title h2 {
-                position:absolute;
-                top:170px;
-                left:170px;
-                font-family: pacifico, sans-serif;
-                font-weight: 400;
-                font-style: normal;
-                font-size:70px;
-                
-            }
-            .about-info {
-                position:absolute;
-                top:450px;
-                left:20px;
-                font-family: bree,sans-serif;
-                font-weight: 300;
-                font-style: normal;
-                text-align:center;
-                color:#331C0C;
-                font-size:20px;
-                padding:20px;
-                width:500px;
-            }
-
-            .about-grid-2{
-                display:grid;
-            }
-
+.desktop,
+.menu-desktop,
+.menu-mobile {
+  display: none;
+}
