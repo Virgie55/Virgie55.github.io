@@ -97,6 +97,7 @@ img{
           font-size:70px;
           text-align: center;
           color:#331C0C;
+          line-height: 20px;
         }
         .loc-h2 p {
             font-family: bree,sans-serif;
@@ -401,6 +402,7 @@ img{
  .menu-pg {
  	background-image: url("images/mobilmenu-27-02.png");
     background-size: cover;
+    margin:0;
  }
 
 
