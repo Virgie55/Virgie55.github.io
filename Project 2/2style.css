@@ -762,40 +762,40 @@ img{
 }
 .loc-h3 h3 {
     position:absolute;
-    top:190px;
+    top:170px;
     left:240px;
 }
 .loc-info-1{
     position:absolute;
-    top:340px;
+    top:310px;
     left:720px;
     width:500px;
 }
 .loc-add-1{
     position:absolute;
-    top:270px;
+    top:250px;
     left:760px;
 }
 .loc-add-2{
 position:absolute;
-top:420px;
+top:390px;
 left:770px;
 }
 .loc-info-2{
     position:absolute;
-    top:500px;
+    top:450px;
     left:720px;
     width:500px;
 }
 .loc-info-3{
     position:absolute;
-    top:640px;
+    top:570px;
     left:720px;
     width:500px;
 }
 .loc-add-3{
     position:absolute;
-    top:560px;
+    top:510px;
     left:720px;
     width:500px;
 }
