@@ -644,6 +644,7 @@ img{
     font-family: bree, sans-serif;
     font-weight: 200;
     font-style: italic;
+    
 
 }
 .con-line{
@@ -662,13 +663,13 @@ img{
     top:350px;
     width:750px;
     left:650px;
+    text-align: left;
 }
 .topnav{
     display:none;
 }
 .con-des-nav{
     display:flex;
-    background-color:#331C0C;
     font-family: bree,sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -678,18 +679,22 @@ img{
     text-decoration: white;
 }
 .con-des-nav a{
-    color:white;
+    color:#331C0C;
     text-decoration: none;
     text-align: center;
     padding:20px;
-    font-size: 25px;
+    font-size: 23px;
     cursor: pointer;
     
 }
-}
-#desmyLinks{
+.con-nav-line {
+    border-radius: 7px #331C0C;
+    width:800px;
+    position:absolute;
+    top:20px; 
 
 }
 }
+
 
     
