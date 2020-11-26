@@ -15,7 +15,7 @@ img{
         flex-direction:column;
       
         }
-        .rubyjlogo img {
+        .loc-lo img {
         display:flex;        
         flex-direction:column;
         justify-content:center;
@@ -594,6 +594,9 @@ img{
     background-color: #331C0C;
     color: white;
   }
+  .con-des-nav{
+      display:none;
+  }
 
 @media (min-width: 768px) {
 
@@ -610,6 +613,83 @@ img{
   }
   
 }
+@media (min-width: 768px) {
+.contact-pg {
+    background-image: url("images/contact-27.png");
+     background-size: cover;
 
+}
+.con-logo img {
+    width:20vw;
+    margin:auto;
+    position:absolute;
+    top:700px;
+    left:1100px;
+}
+.con-grid-1 {
+    display:grid;
+}
+.con-h1{
+    position:absolute;
+    top:50px;
+    left:550px;
+    line-height: 20px;
+
+}
+.con-1-p {
+    position:absolute;
+    top:250px;
+    width:600px;
+    font-size: 25px;
+    font-family: bree, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+
+}
+.con-line{
+    position:absolute;
+    border-radius: 5px #331C0C;
+     width:400px;  
+     top:400px;
+     left:90px;
+}
+.con-grid-2{
+    display:grid;
+
+}
+.con-p-2{
+    position: absolute;
+    top:350px;
+    width:750px;
+    left:650px;
+}
+.topnav{
+    display:none;
+}
+.con-des-nav{
+    display:flex;
+    background-color:#331C0C;
+    font-family: bree,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align:center;
+    font-size:17px;
+    padding:0;
+    text-decoration: white;
+}
+.con-des-nav a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding:20px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+}
+#desmyLinks{
+
+}
+}
 
     
