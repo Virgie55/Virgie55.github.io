@@ -675,30 +675,41 @@ img{
     display:none;
 }
 .con-des-nav{
-    display:flex;
+   display:flex;
     font-family: bree,sans-serif;
     font-weight: 300;
     font-style: normal;
     text-align:center;
     font-size:17px;
-    padding:0;
+    padding:0px;
+    margin:0;
     text-decoration: white;
 }
 .con-des-nav a{
     color:#331C0C;
     text-decoration: none;
     text-align: center;
-    padding:20px;
+    padding:30px;
     font-size: 23px;
     cursor: pointer;
     
 }
-.con-nav-line {
-    border-radius: 7px #331C0C;
-    width:800px;
+.con-line-desktop{
+    width:530px;
+    height:1.5px;
+    background-color: #331C0C;
     position:absolute;
-    top:20px; 
+    top:80px;
+    left:35px;
+}
 
+.loc-line-desktop{
+    width:530px;
+    height:1.5px;
+    background-color: #331C0C;
+    position:absolute;
+    top:70px;
+    left:50px;
 }
 .loc-pg{
     background-image: url("images/location-26.png");
@@ -940,6 +951,14 @@ left:770px;
     left:1100px; 
     padding:0;
 }
+.about-line-desktop{
+    width:530px;
+    height:1.5px;
+    background-color: #331C0C;
+    position:absolute;
+    top:70px;
+    left:55px;
+}
 .about-title{
     position:absolute;
     top:120px;
@@ -964,6 +983,14 @@ width:500px;
     left:860px;
     width:490px;
     text-align:center;
+}
+.nav-line-desktop{
+    width:520px;
+    height:1.5px;
+    background-color: #331C0C;
+    position:absolute;
+    top:70px;
+    left:25px;
 }
 }
 
