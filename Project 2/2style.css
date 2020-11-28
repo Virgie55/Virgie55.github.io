@@ -604,7 +604,6 @@ img{
       display:none;
   }
   
-
 @media (min-width: 768px) {
 
 
@@ -730,7 +729,7 @@ img{
     font-style: normal;
     text-align:center;
     font-size:17px;
-    padding:0;
+    padding:30px;
     text-decoration: white;
 }
 .loc-des-nav a{
@@ -828,8 +827,9 @@ left:770px;
     font-style: normal;
     text-align:center;
     font-size:17px;
-    padding:0;
+    padding-top:30px;
     text-decoration: white;
+
 }
 .menu-des-nav a{
     color:#331C0C;
