@@ -597,6 +597,13 @@ img{
   .con-des-nav{
       display:none;
   }
+  .menu-des-nav{
+      display:none;
+  }
+  .loc-des-nav{
+      display:none;
+  }
+  
 
 @media (min-width: 768px) {
 
