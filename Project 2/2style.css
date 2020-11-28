@@ -604,6 +604,7 @@ img{
       display:none;
   }
   
+  
 @media (min-width: 768px) {
 
 
@@ -992,5 +993,42 @@ width:500px;
     top:70px;
     left:25px;
 }
+.twinkleb{
+    position:absolute;
+    top:200px;
+    width: 30%;
+    margin:auto;
+    animation: twinkle 2s ease-in-out 0s infinite;
+}
+.twinklep{
+  position:absolute;
+  top:500px;
+  left:1200px;
+  width: 20vw;
+  height:auto;
+}
+}
+.twinkleb{
+    position:absolute;
+    top:200px;
+    width: 30%;
+    margin:auto;
+    animation: twinkle 2s ease-in-out 0s infinite;
+}
+.twinklep{
+  position:absolute;
+  top:500px;
+  left:400px;
+  width: 30%;
+  margin:auto;
+}
+
+@keyframes twinkle {
+    from {
+        height:20%;
+    }
+    to{
+        height:40%;
+    }
 }
 
