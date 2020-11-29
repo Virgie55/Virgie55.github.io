@@ -8,13 +8,13 @@ img{
 .pink-left img{
 position:absolute;
 top:590px;
-left:10px;
+left:0px;
 width:170px;
 }
 .pink-right img{
     position:absolute;
-    top:290px;
-    left:300px;
+    top:270px;
+    left:280px;
     padding:0;
     margin:0;
     width:170px;
@@ -28,7 +28,7 @@ width:170px;
 .blue-swirl-2 img{
     position:absolute;
     top:630px;
-    left:320px;
+    left:300px;
     width:90px;
 }
 .twinkleb{
@@ -43,7 +43,7 @@ width:170px;
   position:absolute;
   top:480px;
   left:300px;
-  width: 120px;
+  width:100px;
   margin:auto;
 }
 .loc-pg {
