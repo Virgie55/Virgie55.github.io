@@ -2,8 +2,47 @@ img{
     width:100%;
 }
 
-
-
+.pink-left img{
+position:absolute;
+top:590px;
+left:40px;
+width:170px;
+}
+.pink-right img{
+    position:absolute;
+    top:260px;
+    left:380px;
+    padding:0;
+    margin:0;
+    width:170px;
+}
+.blue-swirl img{
+    position:absolute;
+    top:230px;
+    left:200px;
+    width:70px;
+}
+.blue-swirl-2 img{
+    position:absolute;
+    top:630px;
+    left:420px;
+    width:90px;
+}
+.twinkleb{
+    position:absolute;
+    top:360px;
+    width:150px;
+    height:auto;
+    left:20px;
+    animation: twinkle 2s ease-in-out 0s infinite;
+}
+.twinklep{
+  position:absolute;
+  top:440px;
+  left:400px;
+  width: 150px;
+  margin:auto;
+}
 .loc-pg {
     
         background-image: url("images//mobillocation-24.png");
@@ -253,7 +292,7 @@ img{
         color:#331C0C;
       }
       .index-pg .hp-logo img {
-        padding: 20px;
+        padding: 30px;
       }
 
 .contact-pg{
@@ -621,7 +660,7 @@ img{
     top:900px;
     width:120px;
     height:auto;
-    left:60px;
+    left:70px;
     
  }
  .loc-twinklep img{
@@ -687,6 +726,7 @@ img{
       top:100px;
       width:300px;
       height:auto;
+      left:20px;
   }
   .twinklep img{
       position:absolute;
@@ -709,6 +749,32 @@ img{
      width:200px;
      height:auto;
   }
+  .pink-left img{
+    position:absolute;
+    top:200px;
+    left:120px;
+    width:200px;
+    }
+    .pink-right img{
+        position:absolute;
+        top:-20px;
+        left:1160px;
+        padding:0;
+        margin:0;
+        width:200px;
+    }
+    .blue-swirl img{
+        position:absolute;
+        top:380px;
+        left:450px;
+        width:70px;
+    }
+    .blue-swirl-2 img{
+        position:absolute;
+        top:520px;
+        left:840px;
+        width:190px;
+    }
   
 }
 @media (min-width: 768px) {
@@ -1113,20 +1179,7 @@ width:500px;
     left:25px;
 }
 }
-.twinkleb{
-    position:absolute;
-    top:200px;
-    width: 30%;
-    margin:auto;
-    animation: twinkle 2s ease-in-out 0s infinite;
-}
-.twinklep{
-  position:absolute;
-  top:500px;
-  left:400px;
-  width: 30%;
-  margin:auto;
-}
+
 
 @keyframes twinkle {
     from {
