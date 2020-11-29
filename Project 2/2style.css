@@ -28,22 +28,22 @@ width:130px;
 .blue-swirl-2 img{
     position:absolute;
     top:630px;
-    left:280px;
+    left:270px;
     width:90px;
 }
 .twinkleb{
     position:absolute;
-    top:280px;
+    top:260px;
     width:120px;
     height:auto;
-    left:10px;
+    left:0px;
     animation: twinkle 2s ease-in-out 0s infinite;
 }
 .twinklep{
   position:absolute;
   top:480px;
   left:300px;
-  width:100px;
+  width:90px;
   margin:auto;
 }
 .loc-pg {
