@@ -28,7 +28,7 @@ width:170px;
 .blue-swirl-2 img{
     position:absolute;
     top:630px;
-    left:420px;
+    left:320px;
     width:90px;
 }
 .twinkleb{
@@ -36,12 +36,12 @@ width:170px;
     top:360px;
     width:150px;
     height:auto;
-    left:20px;
+    left:10px;
     animation: twinkle 2s ease-in-out 0s infinite;
 }
 .twinklep{
   position:absolute;
-  top:490px;
+  top:480px;
   left:300px;
   width: 120px;
   margin:auto;
