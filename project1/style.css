@@ -418,7 +418,10 @@ img {
   min-width: 400px;
   min-height: 180px;
 }
-
+.in-box-1:hover{
+  transform: translate(2vw,0vw);
+  width:915px;
+}
 .id-grid-1 {
   width: 500px;
 }
