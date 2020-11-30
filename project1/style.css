@@ -82,6 +82,7 @@ img {
   position: absolute;
   top: 365px;
   left: 760px;
+  transition-delay: 0.25s;
   
 }
 
