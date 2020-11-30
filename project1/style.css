@@ -34,7 +34,10 @@ img {
   left: 950px;
   top: 20px;
 }
-
+.satpg-box-1:hover  {
+  transition-delay: 0.25s;
+  transform: translate(-25vw, 0vw);
+}
 .satpg-effects h2 {
   font-family: buckboard-pro, serif;
   font-style: normal;
@@ -73,6 +76,14 @@ img {
   top: 400px;
   border-radius: 30px;
 }
+.satpg-box-2:hover  {
+  width:450px;
+  height:580px;
+  position: absolute;
+  top: 365px;
+  left: 760px;
+  
+}
 
 .sat-eff-list {
   font-family: vag-rundschrift-d, sans-serif;
@@ -105,6 +116,15 @@ img {
   background-color: #89236c;
   opacity: 0.3;
 }
+.satpg-box-3:hover  {
+  width:280px;
+  height:280px;
+  position: absolute;
+  top: 1265px;
+  left: 187px;
+  transform: scale(2.1); 
+}
+
 
 .sat-hti-title {
   font-family: buckboard-pro, serif;
