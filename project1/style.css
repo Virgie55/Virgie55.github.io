@@ -1054,6 +1054,11 @@ h4 {
   top: 1870px;
   border-radius: 30px;
 }
+.cbdpg-box-4:hover {
+  transform: translate(2vw,0vw);
+  width:300px;
+  left:870px;
+}
 
 .cbd-nav {
   position: absolute;
