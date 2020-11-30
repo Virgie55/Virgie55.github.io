@@ -240,6 +240,10 @@ img {
   top: 50px;
   left: 1250px;
 }
+.hp-title:hover{
+  transition-delay: 0.25s;
+  transform: translate(0vw,7vw);
+}
 
 .hp-title-box {
   border-radius: 20px;
@@ -250,6 +254,7 @@ img {
   left: 1295px;
   top: 480px;
 }
+
 
 .hp-id-img {
   position: absolute;
@@ -271,6 +276,9 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 70px;
+}
+.hp-id-title h2:hover{
+  transform: scale(1.1); 
 }
 
 .hp-sat-img {
@@ -294,6 +302,12 @@ img {
   font-weight: 400;
   font-size: 70px;
 }
+.hp-sat-title h2:hover{
+
+    transform: scale(1.1); 
+  }
+
+
 
 .hp-hy-img {
   position: absolute;
@@ -316,6 +330,10 @@ img {
   font-weight: 400;
   font-size: 70px;
 }
+.hp-hy-title h2:hover{
+  transform: scale(1.1); 
+}
+
 
 .hp-cbd-img {
   position: absolute;
@@ -337,6 +355,10 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 70px;
+}
+.hp-cbd-title h2:hover{
+  transform: scale(1.1); 
+
 }
 
 .id-title {
