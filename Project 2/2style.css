@@ -726,6 +726,10 @@ width:130px;
     padding:0px;
     margin:0;
     text-decoration: white;
+    opacity:100%;
+  }
+  .index-des-nav:hover{
+      opacity:70%;
   }
   .index-des-nav a{
     color:#331C0C;
@@ -874,6 +878,7 @@ width:130px;
     padding:0px;
     margin:0;
     text-decoration: white;
+    opacity:100%;
 }
 .con-des-nav a{
     color:#331C0C;
@@ -883,13 +888,17 @@ width:130px;
     font-size: 23px;
     cursor: pointer;
     
+    
+}
+.con-des-nav:hover{
+    opacity:70%;
 }
 .con-line-desktop{
     width:530px;
     height:1.5px;
     background-color: #331C0C;
     position:absolute;
-    top:80px;
+    top:100px;
     left:35px;
 }
 
@@ -898,7 +907,7 @@ width:130px;
     height:1.5px;
     background-color: #331C0C;
     position:absolute;
-    top:70px;
+    top:100px;
     left:50px;
 }
 .loc-pg{
@@ -1174,13 +1183,14 @@ left:770px;
     height:1.5px;
     background-color: #331C0C;
     position:absolute;
-    top:70px;
+    top:90px;
     left:55px;
 }
 .about-title{
     position:absolute;
     top:120px;
     left:40px;
+    line-height: 20px;
 }
 .about-info{
     width:750px;
@@ -1207,7 +1217,7 @@ width:500px;
     height:1.5px;
     background-color: #331C0C;
     position:absolute;
-    top:70px;
+    top:100px;
     left:25px;
 }
 }
