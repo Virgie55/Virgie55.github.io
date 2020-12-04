@@ -402,10 +402,7 @@ width:130px;
         margin:0;
         line-height: 20px;
 }
-.about-title h2{
-    margin:0;
-    padding0;
-}
+
 .about-info{
     font-family: bree,sans-serif;
     font-weight: 300;
@@ -960,6 +957,10 @@ width:130px;
     font-size:17px;
     padding:30px;
     text-decoration: white;
+    opacity:100%;
+}
+.loc-des-nav:hover{
+    opacity:70%;
 }
 .loc-des-nav a{
     color:#331C0C;
@@ -1059,7 +1060,10 @@ left:770px;
     font-size:17px;
     padding-top:30px;
     text-decoration: white;
-
+    opacity:100%;
+}
+.menu-des-nav:hover{
+    opacity:70%;
 }
 .menu-des-nav a{
     color:#331C0C;
@@ -1068,6 +1072,7 @@ left:770px;
     padding:30px;
     font-size: 23px;
     cursor: pointer;
+    
 }
 .menu-twinkb{
     position:absolute;
@@ -1194,7 +1199,7 @@ left:770px;
     position:absolute;
     top:120px;
     left:40px;
-    line-height: 10px;
+    line-height: 20px;
 }
 .about-info{
     width:750px;
