@@ -869,6 +869,16 @@ width:130px;
 .topnav{
     display:none;
 }
+.contact-form-title{
+    position:absolute;
+    top:400px;
+    left:-450px;
+}
+.contact-form{
+    position:absolute;
+    top:500px;
+    left:180px;
+}
 .con-des-nav{
    display:flex;
     font-family: bree,sans-serif;
@@ -901,6 +911,17 @@ width:130px;
     position:absolute;
     top:100px;
     left:35px;
+}
+.contact-form{
+    width:350px;
+    border-radius: 20px;
+    background-color: pink;
+    padding:20px;
+    padding-left: 20px;
+}
+.form-control{
+    width:300px;
+    color: #331C0C;
 }
 
 .loc-line-desktop{
