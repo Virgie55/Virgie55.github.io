@@ -5,6 +5,10 @@ img{
     padding:20px;
 }
 
+.contact-form{
+   width:100%;
+}
+
 .pink-left img{
 position:absolute;
 top:590px;
