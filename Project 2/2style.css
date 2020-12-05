@@ -64,12 +64,23 @@ width:130px;
     left:0px;
     animation: twinkle 2s ease-in-out 0s infinite;
 }
+.twinkleb:hover{
+    position:absolute;
+    top:270px;
+    left:20px;
+}
 .twinklep{
   position:absolute;
   top:480px;
-  left:300px;
+  left:320px;
   width:90px;
   margin:auto;
+}
+.twinklep:hover{
+    position:absolute;
+    top:380px;
+    left:340px;
+    width:70px;
 }
 .loc-pg {
     
